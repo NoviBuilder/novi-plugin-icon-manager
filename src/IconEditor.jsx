@@ -18,10 +18,11 @@ function onClick(element) {
 }
 
 function onSubmit(element, oldClass, newClass){
-    let classList = element.getAttribute("class").split(" ");
-    let targetClass = oldClass.split(" ");
 
-    for (let i=0; i<=classList.length -1; i++){
+    let classList = element.getAttribute("class").split(" ");
+    let targetClass = oldClass ? oldClass.split(" ") : [];
+
+    for (let i= classList.length -1; i >= 0; i--){
         for (let j=0; j <= targetClass.length -1; j++){
             if (classList[i] === targetClass[j]) classList.splice(i, 1);
         }

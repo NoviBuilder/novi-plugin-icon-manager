@@ -6,7 +6,7 @@ const Plugin = {
     name: "novi-plugin-icon-manager",
     title: "Novi Icon",
     description: "Novi Plugin for change icons",
-    version: "1.0.0",
+    version: "1.0.1",
     dependencies: {
         novi: "0.8.5"
     },
