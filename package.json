@@ -1,6 +1,6 @@
 {
   "name": "@novi_dev/novi-plugin-icon-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Novi Plugin Icon Manager",
   "main": "dist/novi-plugin-icon-manager.js",
   "repository": {

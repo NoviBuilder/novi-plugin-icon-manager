@@ -2,12 +2,12 @@ const React = novi.react.React;
 const Icon = novi.ui.icon;
 const Icons = novi.ui.icons;
 const Types = novi.types;
-
+const messages = novi.language.getDataByKey("novi-plugin-icon-manager");
 const EditorItem = {
     trigger: <Icon>{Icons.ICON_ICONS_2}</Icon>,
-    tooltip: "Replace Icon",
+    tooltip: messages.editor.tooltip,
     closeIcon: "submit",
-    title: "Replace icon",
+    title: messages.editor.title,
     onTriggerClick: onClick
 };
 
